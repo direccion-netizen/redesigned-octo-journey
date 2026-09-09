@@ -1,0 +1,8 @@
+.lang-switch{display:inline-flex;align-items:center;gap:2px;margin-left:12px;padding:3px;border:1px solid var(--hairline,#E4EAF3);border-radius:99px;background:rgba(255,255,255,.6)}
+.lang-switch-btn{font-family:var(--mono,ui-monospace,monospace);font-size:11px;letter-spacing:.04em;font-weight:600;color:var(--ink-soft,#586173);background:transparent;border:none;padding:5px 10px;border-radius:99px;cursor:pointer;transition:background .15s,color .15s}
+.lang-switch-btn:hover{color:var(--ink,#0F1729)}
+.lang-switch-btn.is-active{background:var(--brand,#2F6BF5);color:#fff}
+@media (max-width:640px){
+  .lang-switch{margin-left:6px}
+  .lang-switch-btn{padding:4px 8px;font-size:10px}
+}
